@@ -1,0 +1,49 @@
+
+.menu {
+  font-family: 'Lato', sans-serif;
+  background: black;
+  text-align: center;
+  padding: 10px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.menu-item {
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 160px;
+    position: relative;
+    text-transform: uppercase;
+    transition: ease-in .3s;
+}
+
+.menu-item:hover{
+    color: #00bbbb;
+}
+
+#collasible-nav-dropdown {
+  padding:5px 20px;
+  text-decoration:none;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 160px;
+  position: relative;
+  text-transform: uppercase;
+  transition: ease-in .3s;
+}
+
+#collasible-nav-dropdown:hover{
+  color: #00bbbb;
+}
